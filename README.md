@@ -55,6 +55,7 @@ config :libcluster,
   topologies: [
     example: [
       strategy: ClusterEcto.Strategy.Ecto,
+      ecto_repo: Example.Repo,
       interval: 5000, 
       delay_tolerance: 1000
     ]
