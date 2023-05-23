@@ -39,7 +39,7 @@ def application do
   ]
 
 def deps do
-  [{:libcluster_ecto, github: "robertov8/libcluster_ecto", branch: "master"}]
+  [{:libcluster_ecto, github: "robertov8/libcluster_ecto", branch: "main"}]
 end
 ```
 
